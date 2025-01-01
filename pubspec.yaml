@@ -1,0 +1,21 @@
+name: app5
+description: A new Flutter project
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1 # Ajoute cette ligne avec la version et le numéro de build
+
+environment:
+  sdk: '^3.6.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0 # ou la version la plus récente compatible
+  table_calendar: ^3.0.0 # Ajout de la dépendance pour le calendrier
+  shared_preferences: ^2.0.0 # Ajout de la dépendance pour les préférences partagées
+
+flutter:
+  uses-material-design: true
+  assets: [] # Si tu as des assets, ajoute-les ici
+
